@@ -1,0 +1,231 @@
+/* src/ToDoList.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/gg.jpg) no-repeat center center fixed;  
+  background-size: cover;
+}
+
+.todo-container {
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  
+}
+
+
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 1;
+  width: 100%;
+  font-size: 18px ;
+}
+
+.add-button {
+  padding: 5px 10px;
+  width:70px;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 20px ;
+}
+
+.todo-table th, .todo-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+
+.todo-table th {
+  background-color: #f2f2f2;
+}
+
+.todo-table tr {
+  background-color: #1a262b65;
+
+}
+
+.todo-table td {
+  text-align: center;
+  
+}
+
+.delete-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  width: 70px;
+}
+
+.edit-button{
+  margin-left: 10px;
+  padding: 5px 10px;
+  width: 70px;
+}
+
+
+.onlogout{
+  width:70px;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.completed td {
+  text-decoration: line-through;
+}
+
+h1 {
+  font-size: 45px;
+  color:black;
+  margin: 30px 0;
+}
+
+.background {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.background .shape {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 12px;
+  padding: 10px 20px;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.wrapper h1 {
+  font-size: 30px;
+  color: #fffefe;
+}
+
+.input-box {
+  position: relative;
+}
+
+input[type="checkbox"]
+{
+  width: 20px;
+  height: 20px;
+}
+
+
+.input-box input[type="text"],
+.input-box input[type="password"] {
+  border-radius: 10px;
+  background: white;
+  margin: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  width: 280px;
+  height: 40px;
+  padding: 20px 40px 20px 20px;
+  backdrop-filter: blur(15px);
+}
+
+
+
+label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  
+}
+
+::placeholder {
+  color: black;
+}
+
+button {
+  margin-top: 30px;
+  width: 100%;
+  background-color: rgb(43, 125, 128);
+  color: #fff;
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.log {
+  background: rgb(22, 130, 138);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 45px;
+  width: 200px;
+  height: 50px;
+}
+
+.forgot {
+  text-decoration: none;
+  position: relative;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.forgot:hover {
+  text-decoration: none;
+  color: #fffffffd;
+}
+
+.remember-forgot {
+  text-decoration: none;
+  color: white;
+  width: 200px;
+}
+.reg{
+  text-decoration: none;
+  color: white;
+  width: 200px;
+}
