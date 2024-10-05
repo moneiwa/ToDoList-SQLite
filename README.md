@@ -1,8 +1,35 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js-based To-Do List application that allows users to manage their tasks efficiently with features for authentication and task management.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Pages](#pages)
+  - [Login Page](#login-page)
+  - [Registration Page](#registration-page)
+  - [Home Page](#home-page)
+
+
+## Features
+
+- User authentication
+- CRUD 
+- Search functionality
+
+## Technologies Used
+
+- React.js
+- Redux 
+- CSS
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/moneiwa/ToDoList-SQLite.git
